@@ -17,7 +17,9 @@
 
 最后 **主编** 综合给出「🏆 值得追 / 👍 可以追 / 😐 食之无味 / ⛔ 建议劝退」+ 雷点预警 + 适合人群。
 
-示例报告见 [`examples/sample-report.md`](examples/sample-report.md)。
+除了文字报告，还会渲染一张**小红书风格的品鉴卡**（番茄红＋藤叶绿的「品鉴票据」样式，
+含四维评分条和手盖评级印章），方便保存分享。示例见 [`examples/sample-report.md`](examples/sample-report.md)
+（文字）和 [`examples/sample-card.html`](examples/sample-card.html)（卡片）。
 
 ## 怎么用
 
@@ -65,9 +67,11 @@ fanqie-novel-critic/
 │   ├── fetch-guide.md        # 抓取指南（实测的浏览器步骤 + 兜底方案）
 │   ├── tropes.md             # 网文套路库（女频/男频/共通桥段 + 新鲜度）
 │   ├── styles.md             # 文风词典 + 毒点信号
-│   └── ai-tells.md           # AI 水文特征清单
+│   ├── ai-tells.md           # AI 水文特征清单
+│   └── card-guide.md         # 品鉴卡渲染指南（字段/评级印章/配色规则）
 ├── examples/
-│   └── sample-report.md      # 一份真实示例报告
+│   ├── sample-report.md      # 一份真实示例报告（文字）
+│   └── sample-card.html      # 一张真实示例品鉴卡（小红书风格）
 ├── README.md
 └── LICENSE
 ```

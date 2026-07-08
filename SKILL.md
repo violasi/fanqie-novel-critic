@@ -52,6 +52,13 @@ description: >-
 
 按「品鉴报告模板」排版输出。可参考 [`examples/sample-report.md`](examples/sample-report.md)。
 
+### 第 5 步：渲染品鉴卡（赏心悦目版）
+
+文字报告之后，**再渲染一张社交卡片**作为成品，方便书友保存 / 发小红书。
+做法见 [`references/card-guide.md`](references/card-guide.md)：以 [`examples/sample-card.html`](examples/sample-card.html)
+为模板，替换成本书数据（评级印章、四维评分条颜色都有既定规则）。有网页托管/Artifact 能力就发布成链接，
+否则让书友本地打开或截图。卡片是报告的补充、不替代报告。
+
 ---
 
 ## 品鉴官阵容
